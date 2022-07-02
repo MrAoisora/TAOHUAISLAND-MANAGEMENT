@@ -19,12 +19,7 @@ axios.defaults.timeout = 8000
  * 是否允许访问带令牌，跨域
  * @type {boolean}
  */
-axios.defaults.withCredentials = true
-/**
- * 设置请求传递数据的格式
- * @type {string}
- */
-axios.defaults.headers['conten-Type'] = 'application/x-www-form-urlenconded'
+axios.defaults.withCredentials = false
 
 axios.loadData = async function (url) {
   const resp = await axios.get(url)

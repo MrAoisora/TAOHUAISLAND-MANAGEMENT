@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
+import './api/request/http' // 将http注册到main.js
 import 'element-ui/lib/theme-chalk/index.css'
 import './assets/font/taohuadaoIconfont/iconfont.css'
 
@@ -16,6 +17,6 @@ Vue.use(ElementUI)
 new Vue({
   'el': '#app',
   router,
-  'components': { App },
+  'components': {App},
   'template': '<App/>'
 })

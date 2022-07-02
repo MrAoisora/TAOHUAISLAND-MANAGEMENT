@@ -2,11 +2,11 @@
   <div class="login-layout">
     <div class="login-box">
       <h1>桃花岛</h1>
-      <div class="input-box" >
+      <div class="input-box">
         <i class="iconfont icon-rcd-user font-style" style="font-size: 20px;"></i>
         <input type="text" placeholder="USERNAME" class="font-style"/>
       </div>
-      <div class="input-box" >
+      <div class="input-box">
         <i class="iconfont icon-rcd-locked font-style" style="font-size: 20px;"></i>
         <input type="passwork" placeholder="PASSWORK" class="font-style"/>
       </div>
@@ -20,7 +20,11 @@ export default {
   name: 'login',
   methods: {
     test () {
-      alert('denglu')
+      const url = 'http://127.0.0.1:8099/menucreate/queryAllMenu'
+      const params = ''
+      this.$http.post(url, params).then(resp => {
+        console.log('resp=======', resp)
+      })
     }
   }
 }
@@ -33,7 +37,8 @@ $colorParam: #ffffff;
   padding: 0;
   box-sizing: border-box;
 }
-.font-style{
+
+.font-style {
   color: $colorParam;
   font-size: 12px;
   font-weight: 600;
@@ -59,10 +64,12 @@ $colorParam: #ffffff;
     border-radius: 2%;
     min-height: 350px; // 登录框的最小高度<layout最小高度，所以不会出现超出layout的状况，width同理
     min-width: 300px;
+
     h1 {
       padding-top: 30px;
       color: $colorParam;
     }
+
     input {
       margin-top: 35px;
       padding-left: 8px;
@@ -75,8 +82,8 @@ $colorParam: #ffffff;
     }
 
     button {
-      margin-top:50px;
-      height:40px;;
+      margin-top: 50px;
+      height: 40px;;
       width: 150px;
       border: none;
       border-radius: 20px;
