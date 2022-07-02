@@ -1,0 +1,107 @@
+{
+  "id": "3385130",
+  "name": "taohuadaoManagent",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "29923382",
+      "name": "rcd-user",
+      "font_class": "rcd-user",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "29923397",
+      "name": "rcd",
+      "font_class": "rcd-locked",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "29525610",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "29526116",
+      "name": "详情:列表",
+      "font_class": "a-xiangqingliebiao",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "29526124",
+      "name": "正确:确定",
+      "font_class": "a-zhengquequeding",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "29526133",
+      "name": "提示1.1",
+      "font_class": "a-tishi11",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "29524972",
+      "name": "close-fill",
+      "font_class": "close-fill",
+      "unicode": "e8d6",
+      "unicode_decimal": 59606
+    },
+    {
+      "icon_id": "77403",
+      "name": "链接",
+      "font_class": "lianjie",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5388034",
+      "name": "服务_o",
+      "font_class": "fuwu_o",
+      "unicode": "ebbe",
+      "unicode_decimal": 60350
+    },
+    {
+      "icon_id": "5643514",
+      "name": "关于",
+      "font_class": "guanyu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "10465927",
+      "name": "事件管理",
+      "font_class": "shijianguanli",
+      "unicode": "e7b9",
+      "unicode_decimal": 59321
+    },
+    {
+      "icon_id": "29523051",
+      "name": "bar-chart-horizontal-line",
+      "font_class": "bar-chart-horizontal-line",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "29525599",
+      "name": "系统中心",
+      "font_class": "xitongzhongxin",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "29525607",
+      "name": "消息中心",
+      "font_class": "xiaoxizhongxin",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    }
+  ]
+}
